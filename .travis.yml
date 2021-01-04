@@ -1,7 +1,7 @@
 language: php
 install:
     - composer install
-    - echo "OK"
+    # - echo "OK"
 script:
     - phpunit --configuration phpunit.xml
     - vendor/bin/phpcs --standard=PSR2 src

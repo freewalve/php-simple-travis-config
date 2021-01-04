@@ -1,0 +1,26 @@
+{
+    "name": "kirillbdev/simple-travis",
+    "description": "Simple travis.",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "kirillbdev",
+            "email": "kirill.babinec@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "squizlabs/php_codesniffer": "4.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "kirillbdev\\PHPSimpleTravis\\": "src/",
+            "kirillbdev\\PHPSimpleTravis\\Tests\\": "tests/"
+        }
+    }
+}

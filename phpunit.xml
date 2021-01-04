@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true"
+         executionOrder="random"
+         resolveDependencies="true"
+         bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="unit">
+            <directory suffix="Test.php">./tests/Unit/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

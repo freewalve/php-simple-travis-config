@@ -8,5 +8,6 @@ class Kernel
     {
         // do something
         // idea-cms changes
+        // idea-cms changes
     }
 }

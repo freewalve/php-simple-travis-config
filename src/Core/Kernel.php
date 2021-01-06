@@ -6,6 +6,11 @@ class Kernel
 {
     public function init()
     {
-        // idea-cms changes
+        // something
+    }
+
+    public function newMethod()
+    {
+        // something
     }
 }

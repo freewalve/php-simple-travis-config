@@ -11,6 +11,7 @@ class Kernel
 
     public function test()
     {
-        // new method 2
+        // new method
+        // do something
     }
 }

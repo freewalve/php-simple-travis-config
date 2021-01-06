@@ -8,4 +8,9 @@ class Kernel
     {
         // idea-cms changes
     }
+
+    public function test()
+    {
+        // new method
+    }
 }

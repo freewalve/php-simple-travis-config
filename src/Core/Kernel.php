@@ -6,6 +6,14 @@ class Kernel
 {
     public function init()
     {
-        // idea-cms changes
+        // something
+    }
+
+    /**
+     * @return int
+     */
+    public function newFeature()
+    {
+        return 10;
     }
 }

@@ -8,4 +8,12 @@ class Kernel
     {
         // something
     }
+
+    /**
+     * @return int
+     */
+    public function feature()
+    {
+        return 10;
+    }
 }

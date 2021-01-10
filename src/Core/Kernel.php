@@ -9,11 +9,8 @@ class Kernel
         // something
     }
 
-    /**
-     * @return int
-     */
-    public function newFeature()
+    public function test()
     {
-        return 10;
+
     }
 }

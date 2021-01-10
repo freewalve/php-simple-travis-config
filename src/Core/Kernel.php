@@ -8,9 +8,4 @@ class Kernel
     {
         // something
     }
-
-    public function test()
-    {
-
-    }
 }

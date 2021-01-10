@@ -16,4 +16,9 @@ class Kernel
     {
         return 10;
     }
+
+    public function smtp()
+    {
+        return 10;
+    }
 }
